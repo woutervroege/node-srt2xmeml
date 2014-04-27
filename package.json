@@ -1,0 +1,23 @@
+{
+  "name": "srt2xmeml",
+  "version": "0.1.3",
+  "description": "Convert srt files to xmeml (Final Cut Pro) xml files",
+  "dependencies": {
+    "underscore": "1.6.0",
+    "optimist": "0.6.1",
+    "srt2json": "*",
+    "handlebars": "2.0.0-alpha.2",
+    "uuid": "1.4.1"
+  },
+  "author": {
+    "name": "Wouter Vroege",
+    "url": "woutervroege.nl"
+  },
+  "main": "./srt2xmeml.js",
+  "bin": {
+    "srt2xmeml": "./srt2xmeml.js"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  }
+}
